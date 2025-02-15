@@ -1,0 +1,1 @@
+use strict; use warnings; my %hash = (a => 1, b => 2, c => 3); # Maintaining insertion order if Perl version supports it foreach my $key (sort keys %hash) { print "$key => $hash{$key}\n"; } 
